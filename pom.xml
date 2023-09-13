@@ -34,6 +34,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.scm.id>github</project.scm.id>
     </properties>
     <build>
         <pluginManagement>
@@ -118,4 +119,14 @@
             </plugin>
         </plugins>
     </build>
+    <scm>
+        <developerConnection>scm:git:https://github.com/twalmsley/java-monads.git</developerConnection>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub</name>
+            <url>https://maven.pkg.github.com/twalmsley/java-monads</url>  
+        </repository>
+    </distributionManagement>
 </project>
