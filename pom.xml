@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>uk.co.aosd</groupId>
     <artifactId>monad</artifactId>
-    <version>0.1</version>
+    <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <repositories>
         <repository>
@@ -121,8 +121,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/twalmsley/java-monads.git</developerConnection>
-      <tag>monad-0.1</tag>
-  </scm>
+    </scm>
     <distributionManagement>
         <repository>
             <id>github</id>
